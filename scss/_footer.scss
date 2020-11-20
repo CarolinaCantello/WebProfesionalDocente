@@ -1,0 +1,75 @@
+/*---------------------------------------------------- footer */ 
+footer {
+    background-color:$celesteDark;
+    margin-top: 10vh;
+    padding: .5rem 1rem;
+}
+
+#addressFooter {
+    margin-top: 1.5rem;
+    padding-top: 0.5rem;
+    i{
+        margin-right: 1rem;
+     }
+    address {
+        font-weight: 500;
+    }
+}
+
+#redesFooter {
+    padding-top: 2rem;
+    max-width: 60px;
+}
+
+.fab {
+    font-size: $fontSizeIcon;
+    color: $rosa1;
+    &:hover {
+        color: $rosa2;
+        transition-duration: 0.4s;
+    }
+}
+
+.fa-facebook-square {
+    padding-left: .2rem;
+}
+
+.fa-instagram {
+    @extend .fa-facebook-square;
+}
+
+#copyright {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 1vh;
+    p {
+        font-size: 15px;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #addressFooter {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 40% 60% ;
+    }
+        .item-wapp {
+            grid-area: 1 / 1 / 2 / 2  ;
+        }
+        .item-mail {
+            grid-area: 1 / 2 / 2 / 3 ;
+            padding-right: 4.5rem;
+        }
+
+    #redesFooter {
+        max-width: 150px;
+        top: 26px;
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    .fab {
+        font-size: 28px;
+    }
+}

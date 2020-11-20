@@ -1,0 +1,57 @@
+@import "tipografias";
+@import "colores";
+
+*{ 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $fontPrincipal;
+    color: $fontColor;
+    margin: 0px;
+    padding-top: 35vh;
+    background-color: $celesteLight;
+ }   
+
+@mixin cajaTexto ($margin,$font-family,$font-size,$letter-spacing,$word-spacing){
+    margin: $margin;
+    font-family: $font-family;
+    font-size: $font-size;
+    letter-spacing: $letter-spacing;
+    word-spacing: $word-spacing;
+}
+ h1 { 
+    @include cajaTexto(0, $fontTitulos, $sizeTitulos, 0.1, 0.3rem);
+    margin-bottom: 1.5rem;
+ }
+ h2 {
+     @include cajaTexto(0,$fontSubtitulos,$sizeSubtitulos, 0, 0.3rem);
+     margin-bottom: 1.5rem;
+ }
+
+ p {
+     @include cajaTexto(0,$fontPrincipal,$sizeParrafos, 0, 0);
+     text-align: center;
+     margin-bottom: 1.5rem;
+ }
+
+ a {
+    text-decoration: none;
+    background: none;
+    button {
+        @include cajaTexto(5px, $fontButton, $fontSizeButton, 0, 0);
+        background-color:$rosa2;
+        padding: 22px;
+        border-radius: 30px;
+        border-bottom-width: 4px;
+        border-right-width: 3px;
+        border-bottom-color: $rosa3 ;
+        border-right-color: $rosa3;
+        border-top: hidden;
+        border-left: hidden;
+        &:hover {
+            background-color: #99ffff;
+            border-color: $rosa1; 
+        }
+    }
+}
