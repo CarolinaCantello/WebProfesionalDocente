@@ -21,12 +21,20 @@ body {
     word-spacing: $word-spacing;
 }
  h1 { 
-    @include cajaTexto(0, $fontTitulos, $sizeTitulos, 0.1, 0.3rem);
+    @include cajaTexto(0, $fontTitulos, $sizeTitulos, 0.1rem, 0.3rem);
     margin-bottom: 1.5rem;
  }
+ 
  h2 {
      @include cajaTexto(0,$fontSubtitulos,$sizeSubtitulos, 0, 0.3rem);
      margin-bottom: 1.5rem;
+ }
+
+ h3 {
+     @include cajaTexto(0, $fontH3, $sizeH3, 0.07rem, 0);
+     margin-bottom: 1rem;
+     margin-top: 1rem;
+     text-align: center;
  }
 
  p {

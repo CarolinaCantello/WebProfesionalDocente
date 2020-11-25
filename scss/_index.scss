@@ -1,6 +1,6 @@
  .item-1 {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     h1 {
         order: 1;
         font-size: 40px;
@@ -47,37 +47,40 @@
         display: grid;
         grid-template-columns: 40% 50% 10% ;
         grid-template-rows: 40% repeat(3,20%);
+        grid-row-gap: 1rem;
     }
     .item-1 {
         grid-area: 1 / 2 / 2/ 3 ;
         display: flex;
         justify-content: flex-end;
         padding: 0;
+        position: relative;
+        right: 3rem;
         h1 {
-            text-align: end;
+            text-align: start;
         }
         p{
-            text-align: end;
+            text-align: start;
             margin-bottom: 0;
+            width: 450px;
         }  
     }
     .item-2 {
         grid-area: 1 / 1 / 5 / 2;
-        align-self: end;
+        align-self: center;
         padding-bottom: 2rem;
     }
     .item-3 {
         grid-area: 2 / 2 / 3 / 3 ;
-        text-align: start;
+        text-align: center;
         margin: 0;
-        padding-left: 4rem;
-        padding-top: 0.5rem;
+        padding: 1rem;
     }
     .item-4 {
         grid-area: 3 / 2 / 4 / 3 ;
         text-align: end;
         font-size: 22px;
-        padding-top: 0.7rem;
+        margin:0;
     }
     .item-5 {
         grid-area: 4 / 2 / 5 / 3 ;

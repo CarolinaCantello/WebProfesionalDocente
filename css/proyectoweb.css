@@ -12,8 +12,8 @@ body {
 h1 {
   margin: 0;
   font-family: "oswald", sans-serif;
-  font-size: 55px;
-  letter-spacing: 0.1;
+  font-size: 65px;
+  letter-spacing: 0.1rem;
   word-spacing: 0.3rem;
   margin-bottom: 1.5rem; }
 
@@ -24,6 +24,16 @@ h2 {
   letter-spacing: 0;
   word-spacing: 0.3rem;
   margin-bottom: 1.5rem; }
+
+h3 {
+  margin: 0;
+  font-family: "oswald", sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.07rem;
+  word-spacing: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center; }
 
 p {
   margin: 0;
@@ -176,32 +186,35 @@ footer {
   .grid {
     display: grid;
     grid-template-columns: 40% 50% 10%;
-    grid-template-rows: 40% repeat(3, 20%); }
+    grid-template-rows: 40% repeat(3, 20%);
+    grid-row-gap: 1rem; }
   .item-1 {
     grid-area: 1 / 2 / 2/ 3;
     display: flex;
     justify-content: flex-end;
-    padding: 0; }
+    padding: 0;
+    position: relative;
+    right: 3rem; }
     .item-1 h1 {
-      text-align: end; }
+      text-align: start; }
     .item-1 p {
-      text-align: end;
-      margin-bottom: 0; }
+      text-align: start;
+      margin-bottom: 0;
+      width: 450px; }
   .item-2 {
     grid-area: 1 / 1 / 5 / 2;
-    align-self: end;
+    align-self: center;
     padding-bottom: 2rem; }
   .item-3 {
     grid-area: 2 / 2 / 3 / 3;
-    text-align: start;
+    text-align: center;
     margin: 0;
-    padding-left: 4rem;
-    padding-top: 0.5rem; }
+    padding: 1rem; }
   .item-4 {
     grid-area: 3 / 2 / 4 / 3;
     text-align: end;
     font-size: 22px;
-    padding-top: 0.7rem; }
+    margin: 0; }
   .item-5 {
     grid-area: 4 / 2 / 5 / 3;
     display: flex;
