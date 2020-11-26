@@ -25,7 +25,7 @@
 .item-3 {
     font-family: $fontSubtitulos;
     font-size: 25px;
-    text-align: center;
+    text-align: start;
     margin-bottom: 1.5rem;
 }
 
@@ -47,20 +47,18 @@
         display: grid;
         grid-template-columns: 40% 50% 10% ;
         grid-template-rows: 40% repeat(3,20%);
-        grid-row-gap: 1rem;
+        grid-row-gap: 0.5rem;
     }
     .item-1 {
         grid-area: 1 / 2 / 2/ 3 ;
         display: flex;
         justify-content: flex-end;
         padding: 0;
-        position: relative;
-        right: 3rem;
         h1 {
-            text-align: start;
+            text-align: end;
         }
         p{
-            text-align: start;
+            text-align: end;
             margin-bottom: 0;
             width: 450px;
         }  
@@ -72,7 +70,7 @@
     }
     .item-3 {
         grid-area: 2 / 2 / 3 / 3 ;
-        text-align: center;
+        text-align: start;
         margin: 0;
         padding: 1rem;
     }

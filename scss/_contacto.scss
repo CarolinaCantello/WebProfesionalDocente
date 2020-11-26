@@ -1,5 +1,5 @@
 form {
-    div {
+    div {  
         margin-top: 20px;
         p {
         font-family: $fontSubtitulos;
@@ -24,4 +24,5 @@ textarea {
 
 fieldset {
     border-radius: 5px;
+    max-width: 500px;
 }
