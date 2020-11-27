@@ -1,3 +1,49 @@
+
+/*---------------------------------------------------- header */ 
+#navIndex {
+    background-color: $celesteDark;   
+    }
+
+nav { 
+    ul { 
+        li {
+            a {
+                font-family: $fontNav;
+                font-size: $SizeNav;
+                color: $fontNavColor;
+                letter-spacing: 0.8px;
+                &:hover {
+                color: $rosa1;
+                transition-duration: 0.5s;
+                text-decoration-line: none;
+                }
+            }
+        }    
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    nav {
+        ul{
+            li{
+                margin-bottom: 1.2rem;
+                margin-left: 2.3rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    nav {
+        ul{
+            li{
+                margin-bottom: 0;
+                margin-left: 0;
+            }
+        }
+    }
+}
+
 /*---------------------------------------------------- footer */ 
 footer {
     background-color:$celesteDark;
