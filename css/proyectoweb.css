@@ -92,7 +92,7 @@ nav ul li a {
 /*---------------------------------------------------- footer */
 footer {
   background-color: #B3E5FC;
-  margin-top: 10vh;
+  margin-top: 12vh;
   padding: .5rem 1rem; }
 
 #addressFooter {
@@ -276,7 +276,7 @@ footer {
   border-radius: 80px; }
 
 .propuestas_encabezado {
-  margin-bottom: 40px; }
+  margin-bottom: 1.5rem; }
   .propuestas_encabezado h1 {
     text-align: center; }
   .propuestas_encabezado p {
@@ -286,8 +286,7 @@ footer {
 
 .propuestas_carousel {
   background-color: #ffcdd2;
-  padding-top: 10%;
-  padding-bottom: 10%; }
+  padding: 5rem 0 5rem 0; }
   .propuestas_carousel h2 {
     margin-bottom: 15px; }
   .propuestas_carousel p {
@@ -377,6 +376,33 @@ fieldset {
 
 /*-----------------------------Desktop----------------------------*/
 @media only screen and (min-width: 992px) {
+  /*--------------------- Enfoque -----------------------*/
+  .ensenanza {
+    margin-bottom: 5rem; }
+    .ensenanza h2 {
+      text-align: start;
+      padding-left: 3rem; }
+  .ensenanza_articles article p {
+    max-width: 90%;
+    margin: 0; }
+  .estudiantes {
+    margin-bottom: 1rem; }
+    .estudiantes h2 {
+      text-align: start;
+      padding-left: 7rem; }
+    .estudiantes img {
+      position: relative;
+      bottom: 5rem; }
+  .tecnologia_texto {
+    padding-top: 2.5rem; }
+  /*--------------- Trabajos y propuestas ---------------*/
+  .propuestas_encabezado p {
+    padding: 3rem; }
+  .propuestas_carousel p {
+    width: 50%; }
+  .propuestas_carousel img {
+    max-width: min-content;
+    margin: 0; }
   /*----------------Clases Particulares -----------------*/
   .precios {
     padding-left: 50px; }
@@ -386,6 +412,9 @@ fieldset {
 
 /*-------------------------Large Desktop--------------------------*/
 @media only screen and (min-width: 1200px) {
+  /*--------------------- Enfoque -----------------------*/
+  .tecnologia_texto {
+    padding-top: 7rem; }
   /*----------------Clases Particulares -----------------*/
   .clases_info {
     padding-top: 3rem; }

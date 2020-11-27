@@ -34,6 +34,53 @@
 }
 /*-----------------------------Desktop----------------------------*/
 @media only screen and (min-width: 992px) {
+/*--------------------- Enfoque -----------------------*/
+    .ensenanza {
+        margin-bottom: 5rem;
+        h2 {
+            text-align: start;
+            padding-left: 3rem;
+        }
+    }    
+    .ensenanza_articles {
+        article {
+            p {
+                max-width: 90%;
+                margin: 0;
+            }
+        }
+    }
+    .estudiantes {
+        margin-bottom: 1rem;
+        h2 {
+            text-align: start;
+            padding-left: 7rem;
+        }
+        img {
+            position: relative;
+            bottom: 5rem;        }
+    }
+    .tecnologia_texto {
+        padding-top: 2.5rem;
+    }
+
+/*--------------- Trabajos y propuestas ---------------*/
+    .propuestas_encabezado {
+        p{
+            padding: 3rem;
+        }
+    }
+    .propuestas_carousel {
+    p {
+        width: 50%;
+
+    }
+    img {
+        max-width: min-content;
+        margin: 0;
+    }
+    }
+
 
 /*----------------Clases Particulares -----------------*/
     .precios {
@@ -48,6 +95,11 @@
 
 /*-------------------------Large Desktop--------------------------*/
 @media only screen and (min-width: 1200px) {
+
+/*--------------------- Enfoque -----------------------*/
+    .tecnologia_texto {
+        padding-top: 7rem;
+}
 
 /*----------------Clases Particulares -----------------*/
     .clases_info {
