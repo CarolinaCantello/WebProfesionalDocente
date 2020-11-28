@@ -8,6 +8,12 @@
 @media only screen and (min-width: 768px) {
 
 /*----------------Clases Particulares -----------------*/
+    .clases_info{
+        padding: 1rem;
+    }
+    .clases_img {
+        padding: 1.5rem;
+    }
     .precios {
         display: grid;
         grid-template-rows: repeat(2, 1fr) ;
@@ -16,6 +22,7 @@
         grid-column-gap: 1.5rem;
         justify-items: center;
         margin-bottom: 1.5rem;
+        max-height: 300px;
     }
     .precios_item-1 {
         grid-area: 1 / 1 / 2 / 2  ;
@@ -77,6 +84,26 @@
     }
 
 /*----------------Clases Particulares -----------------*/
+    .clases {
+        margin-bottom: 2rem;
+    }
+    .clases_info {
+        padding: 3rem;
+    }
+    .clases_img {
+        padding-top: 0;
+        padding-bottom: 3rem;
+    }
+    #precios {
+        max-height: 400px;
+    }
+    #h2Precios {
+            padding-right: 26rem;
+        }
+    .precios_img {
+        position: relative;
+        bottom: 3rem;
+    }
     .precios_btn {
        display: flex;
        max-width: 650px ;
@@ -104,5 +131,8 @@
     }
     .precios_item-2 {
         align-self: flex-end;
+    }
+    #h2Precios {
+        padding-right: 37rem;
     }
 }

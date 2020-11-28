@@ -1,14 +1,12 @@
 .clases_info{
-    padding-top: 1.5rem;
+   padding-top: 2rem;
     h1 {
         text-align: center;
     }
 }
 
 .clases_img {
-    position: relative;
-    bottom: 3rem;
-    max-width: 500px;
+    padding-bottom: 2rem;
 }
 
 .precios {
@@ -16,7 +14,7 @@
         border: solid;
         border-color: $rosa1;
         border-radius: 10px ;
-        width: 233px ;
+        width: 233px;
         height: 120px;
         margin-bottom: 20px;
         box-shadow: 7px 7px 10px grey;

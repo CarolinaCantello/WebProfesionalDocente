@@ -299,14 +299,12 @@ footer {
   margin-top: 40px; }
 
 .clases_info {
-  padding-top: 1.5rem; }
+  padding-top: 2rem; }
   .clases_info h1 {
     text-align: center; }
 
 .clases_img {
-  position: relative;
-  bottom: 3rem;
-  max-width: 500px; }
+  padding-bottom: 2rem; }
 
 .precios article {
   border: solid;
@@ -348,12 +346,16 @@ textarea {
 
 fieldset {
   border-radius: 5px;
-  max-width: 500px; }
+  max-width: 600px; }
 
 /*--------------------------Small Devices--------------------------*/
 /*---------------------------Tablet -------------------------------*/
 @media only screen and (min-width: 768px) {
   /*----------------Clases Particulares -----------------*/
+  .clases_info {
+    padding: 1rem; }
+  .clases_img {
+    padding: 1.5rem; }
   .precios {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -361,7 +363,8 @@ fieldset {
     grid-row-gap: 1.5rem;
     grid-column-gap: 1.5rem;
     justify-items: center;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+    max-height: 300px; }
   .precios_item-1 {
     grid-area: 1 / 1 / 2 / 2; }
   .precios_item-2 {
@@ -399,6 +402,20 @@ fieldset {
     max-width: min-content;
     margin: 0; }
   /*----------------Clases Particulares -----------------*/
+  .clases {
+    margin-bottom: 2rem; }
+  .clases_info {
+    padding: 3rem; }
+  .clases_img {
+    padding-top: 0;
+    padding-bottom: 3rem; }
+  #precios {
+    max-height: 400px; }
+  #h2Precios {
+    padding-right: 26rem; }
+  .precios_img {
+    position: relative;
+    bottom: 3rem; }
   .precios_btn {
     display: flex;
     max-width: 650px; } }
@@ -417,7 +434,9 @@ fieldset {
   .precios_item-1 {
     align-self: end; }
   .precios_item-2 {
-    align-self: flex-end; } }
+    align-self: flex-end; }
+  #h2Precios {
+    padding-right: 37rem; } }
 
 @keyframes slideInRight {
   0% {
