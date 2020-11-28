@@ -1,33 +1,33 @@
 .clases_info{
+    padding-top: 1.5rem;
     h1 {
         text-align: center;
     }
 }
 
 .clases_img {
-    margin-bottom: 10px ;
     position: relative;
-    bottom: 5rem;
+    bottom: 3rem;
     max-width: 500px;
 }
 
 .precios {
-    padding-left: 80px;
     article {
-        display: flex;
-        justify-content: center;
-        padding-top: 17px;
         border: solid;
         border-color: $rosa1;
         border-radius: 10px ;
-        width: 230px ;
+        width: 233px ;
         height: 120px;
         margin-bottom: 20px;
         box-shadow: 7px 7px 10px grey;
         &:hover {
             box-shadow: 10px 10px 5px $celesteButton;
             transition-duration: 0.3s;
-        }    
+        }
+            p {
+                width: 225px;
+                margin: 0;
+            }    
             span {
                 margin-top: 1rem;
                 font-weight: 500;
