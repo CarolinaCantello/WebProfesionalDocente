@@ -45,8 +45,8 @@ body {
  }
 
  a {
-    text-decoration: none;
     background: none;
+    text-decoration-line: none !important;
     button {
         @include cajaTexto(5px, $fontButton, $fontSizeButton, 0, 0);
         background-color:$rosa2;

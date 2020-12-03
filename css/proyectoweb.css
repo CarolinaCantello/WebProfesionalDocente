@@ -46,8 +46,8 @@ p {
   margin-bottom: 1.5rem; }
 
 a {
-  text-decoration: none;
-  background: none; }
+  background: none;
+  text-decoration-line: none !important; }
   a button {
     margin: 5px;
     font-family: "Comfortaa", sans-serif;
@@ -116,7 +116,7 @@ footer {
   font-size: 24px;
   color: #e87d88; }
   .fab:hover {
-    color: #ffcdd2;
+    color: #f3bec9;
     transition-duration: 0.4s; }
 
 .fa-facebook-square, .fa-instagram {
@@ -284,7 +284,7 @@ footer {
     padding: 0 10% 0 10%; }
 
 .propuestas_carousel {
-  background-color: #ffcdd2;
+  background-color: #f9e1dc;
   padding: 5rem 0 5rem 0; }
   .propuestas_carousel h2 {
     margin-bottom: 15px; }
