@@ -72,6 +72,9 @@ a {
   background-color: #B3E5FC;
   height: 24vh; }
 
+#menu {
+  border-color: #b3e5fc; }
+
 nav ul li a {
   font-family: "oswald", sans-serif;
   font-size: 18px;
@@ -109,8 +112,7 @@ footer {
     font-weight: 500; }
 
 #redesFooter {
-  padding-top: 2rem;
-  max-width: 60px; }
+  padding-top: 1rem; }
 
 .fab {
   font-size: 24px;
@@ -238,12 +240,12 @@ footer {
     font-size: 22px; }
 
 #conoceEnfoque {
-  background-color: #cb9c91;
+  background-color: #e6a899;
   margin-bottom: 2rem; }
   #conoceEnfoque p {
-    font-size: 22px;
-    font-weight: 500;
-    color: #B3E5FC; }
+    font-size: 25px;
+    font-weight: 520;
+    color: #82d4fa; }
 
 .ensenanza {
   padding-right: 15px;
@@ -271,7 +273,8 @@ footer {
   margin-bottom: 0; }
 
 .tecnologia img {
-  border-radius: 80px; }
+  border-radius: 120px;
+  border: 5px solid #e6a899; }
 
 .propuestas_encabezado {
   margin-bottom: 1.5rem;
@@ -281,7 +284,8 @@ footer {
   .propuestas_encabezado p {
     font-size: 24px;
     margin-top: 25px;
-    padding: 0 10% 0 10%; }
+    padding: 0 10% 0 10%;
+    text-shadow: 10px 10px 4px #e87d88; }
 
 .propuestas_carousel {
   background-color: #f9e1dc;
@@ -335,7 +339,7 @@ input {
   width: 300px;
   height: 35px;
   padding: 2px;
-  border: 2.5px groove #cb9c91;
+  border: 3px solid #e19685;
   margin-top: 1px;
   margin-bottom: 15px;
   border-radius: 10px; }
@@ -383,7 +387,7 @@ fieldset {
       text-align: start;
       padding-left: 3rem; }
   .ensenanza_articles article p {
-    max-width: 90%;
+    padding: 0 1rem 0 1rem;
     margin: 0; }
   .estudiantes {
     margin-bottom: 1rem; }
@@ -392,7 +396,7 @@ fieldset {
       padding-left: 7rem; }
     .estudiantes img {
       position: relative;
-      bottom: 5rem; }
+      bottom: 8rem; }
   .tecnologia_texto {
     padding-top: 2.5rem; }
   /*--------------- Trabajos y propuestas ---------------*/

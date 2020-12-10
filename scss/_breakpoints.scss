@@ -51,7 +51,7 @@
     .ensenanza_articles {
         article {
             p {
-                max-width: 90%;
+                padding: 0 1rem 0 1rem;
                 margin: 0;
             }
         }
@@ -64,7 +64,7 @@
         }
         img {
             position: relative;
-            bottom: 5rem;        }
+            bottom: 8rem;        }
     }
     .tecnologia_texto {
         padding-top: 2.5rem;

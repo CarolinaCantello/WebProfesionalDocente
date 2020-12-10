@@ -4,6 +4,9 @@
     background-color: $celesteDark;   
     height: 24vh;    
 }
+#menu {
+    border-color: #b3e5fc;
+}
 
 nav { 
     ul { 
@@ -68,8 +71,7 @@ footer {
 }
 
 #redesFooter {
-    padding-top: 2rem;
-    max-width: 60px;
+    padding-top: 1rem;
 }
 
 .fab {
