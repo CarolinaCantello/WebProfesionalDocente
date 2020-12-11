@@ -247,7 +247,8 @@ footer {
   #conoceEnfoque p {
     font-size: 25px;
     font-weight: 520;
-    color: #82d4fa; }
+    color: #82d4fa;
+    letter-spacing: 2px; }
 
 .ensenanza {
   padding-right: 15px;
@@ -261,6 +262,9 @@ footer {
   .ensenanza_carousel p {
     font-size: 16px;
     margin-bottom: 0; }
+
+.zoom:hover {
+  transform: scale(1.1, 1.1); }
 
 .estudiantes {
   margin-bottom: 4rem; }
@@ -291,7 +295,9 @@ footer {
 
 .propuestas_carousel {
   background-color: #f9e1dc;
-  padding: 5rem 0 5rem 0; }
+  padding: 5rem 0 5rem 0;
+  border-top: 5px double #e87d88;
+  border-bottom: 5px double #e87d88; }
   .propuestas_carousel h2 {
     margin-bottom: 15px; }
   .propuestas_carousel p {
@@ -372,7 +378,7 @@ fieldset {
     grid-column-gap: 1.5rem;
     justify-items: center;
     margin-bottom: 1.5rem;
-    max-height: 300px; }
+    max-height: 500px; }
   .precios_item-1 {
     grid-area: 1 / 1 / 2 / 2; }
   .precios_item-2 {
@@ -407,7 +413,8 @@ fieldset {
   .propuestas_encabezado p {
     padding: 3rem; }
   .propuestas_carousel {
-    border-radius: 600px; }
+    border-radius: 50%;
+    max-width: 90%; }
     .propuestas_carousel img {
       max-width: min-content;
       margin: 0; }
@@ -435,6 +442,9 @@ fieldset {
   /*--------------------- Enfoque -----------------------*/
   .tecnologia_texto {
     padding-top: 7rem; }
+  /*--------------- Trabajos y propuestas ---------------*/
+  .propuestas_carousel {
+    max-width: 70%; }
   /*----------------Clases Particulares -----------------*/
   .clases_info {
     padding-top: 3rem; }
@@ -447,6 +457,13 @@ fieldset {
     align-self: flex-end; }
   #h2Precios {
     padding-right: 37rem; } }
+
+/*-------------------------Extra Large Desktop--------------------------*/
+@media only screen and (min-width: 1300px) {
+  /*--------------- Trabajos y propuestas ---------------*/
+  .propuestas_carousel {
+    max-width: 65%;
+    height: 800px; } }
 
 @keyframes slideInRight {
   0% {
