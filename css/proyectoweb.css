@@ -230,7 +230,8 @@ footer {
     padding-top: 0; } }
 
 .enfoque {
-  margin-bottom: 1rem; }
+  margin-top: 3rem;
+  margin-bottom: 2rem; }
   .enfoque h1 {
     width: 100%;
     text-align: center;
@@ -241,7 +242,8 @@ footer {
 
 #conoceEnfoque {
   background-color: #e6a899;
-  margin-bottom: 2rem; }
+  margin-top: 4rem;
+  margin-bottom: 6rem; }
   #conoceEnfoque p {
     font-size: 25px;
     font-weight: 520;
@@ -352,9 +354,11 @@ fieldset {
   border-radius: 5px;
   max-width: 600px; }
 
-/*--------------------------Small Devices--------------------------*/
 /*---------------------------Tablet -------------------------------*/
 @media only screen and (min-width: 768px) {
+  /*--------------- Trabajos y propuestas ---------------*/
+  .propuestas_carousel {
+    border-radius: 350px; }
   /*----------------Clases Particulares -----------------*/
   .clases_info {
     padding: 1rem; }
@@ -393,7 +397,7 @@ fieldset {
     margin-bottom: 1rem; }
     .estudiantes h2 {
       text-align: start;
-      padding-left: 7rem; }
+      padding-left: 4rem; }
     .estudiantes img {
       position: relative;
       bottom: 8rem; }
@@ -402,9 +406,11 @@ fieldset {
   /*--------------- Trabajos y propuestas ---------------*/
   .propuestas_encabezado p {
     padding: 3rem; }
-  .propuestas_carousel img {
-    max-width: min-content;
-    margin: 0; }
+  .propuestas_carousel {
+    border-radius: 600px; }
+    .propuestas_carousel img {
+      max-width: min-content;
+      margin: 0; }
   /*----------------Clases Particulares -----------------*/
   .clases {
     margin-bottom: 2rem; }

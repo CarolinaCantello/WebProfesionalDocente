@@ -12,6 +12,8 @@
     <!----TIPOGRAFÍAS---->
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" type="text/css">
+    <!----Animaciones Css---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!----Iconos Footer---->
     <script src="https://kit.fontawesome.com/20b080dfb8.js" crossorigin="anonymous"></script>
     <title>Enfoque - Profesora Carolina</title>
@@ -51,10 +53,10 @@
           <h1 class="col-12">Enfoque</h1>
           <p class=" col-12">El enfoque del docente es muy importante ya que determina su mirada sobre la enseñanza, el aprendizaje, el lugar que ocupa el que enseña y el lugar que ocupa el que aprende.</p>
         </section> 
-        <article id="conoceEnfoque">
+        <article id="conoceEnfoque" class="animate__animated animate__tada animate__delay-2s">
           <p>¡¡Conocé mi enfoque!!</p>
         </article>
-        <section class="ensenanza row justify-content-center slideInRight">
+        <section class="ensenanza row justify-content-center wow animate__animated animate__bounceInDown">
             <h2 class="col-12">Enseñanza y aprendizaje</h2>
             <div id="carouselExampleControls" class="ensenanza_carousel col-12 d-lg-none carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
@@ -88,8 +90,8 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
-              </div>
-            <div class="ensenanza_articles row justify-content-center d-none d-lg-block d-lg-flex">
+            </div>
+            <div class="ensenanza_articles row justify-content-center d-none d-lg-block d-lg-flex wow animate__animated animate__bounceInDown">
                 <article class="col-md-4">
                     <div class="row justify-content-center">
                       <img class="img-fluid" src="../images/constructivista.svg" alt="Constructivismo">
@@ -113,12 +115,12 @@
                 </article>
             </div>        
         </section>
-        <section class="row justify-content-center estudiantes">
+        <section class="row justify-content-center estudiantes wow animate__animated animate__bounceInLeft">
               <h2 class="col-12">Estudiantes</h2>
               <p class="col-12">El estudiante es un sujeto de derecho. A la hora de enseñar tengo en cuenta que todos los sujetos son diferentes, con diversos intereses y distintas formas de aprender. Cada persona es única y particular.</p>  
               <img class="col-12 img-fluid" src="../images/estudiantesok.png" alt="Estudiantes">
         </section>
-        <section class="row justify-content-center tecnologia">
+        <section class="row justify-content-center tecnologia wow animate__animated animate__bounceInRight">
             <div class="col-12 col-md-6 tecnologia_texto"> 
               <h2>Tecnología</h2>
               <p>El avance tecnológico ha ido ingresando en todos los ámbitos de la vida cotidiana. La educación no puede quedar fuera de este avance, incluyendo herramientas tecnológicas que favorezcan la enseñanza y el aprendizaje.</p>
@@ -154,5 +156,8 @@
 <!--JavaScript y Popper-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>    
-</body>
+<!--Animaciones WOW JS-->
+    <script src="https://wowjs.uk/dist/wow.min.js"></script>
+    <script>new WOW().init();</script>
+  </body>
 </html> 
