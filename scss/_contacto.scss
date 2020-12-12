@@ -26,3 +26,14 @@ fieldset {
     border-radius: 5px;
     max-width: 600px;
 }
+
+#enviar {
+    font-family: $fontButton;
+    font-size: $fontSizeButton;
+    background-color: $rosa2;
+    margin-top: 2rem;
+    &:hover {
+        background-color: #99ffff;
+        border-color: $rosa1; 
+    }
+}

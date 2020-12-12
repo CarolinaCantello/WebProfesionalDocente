@@ -1,3 +1,11 @@
+#card {
+ border-radius: 50px;
+ border: none;
+ box-shadow: 10px 10px 5px #99ffff;
+ border-left: 1.5px groove #99ffff ;
+ border-top: 1.5px groove #99ffff;
+} 
+
  .item-1 {
     display: flex;
     flex-wrap: wrap; 
@@ -8,7 +16,7 @@
         max-width: 450px;
         margin-bottom: 1rem;
         line-height: 3.5rem;
-        text-shadow: grey;
+        text-shadow: 10px 10px 8px #e87d88;
     }  
     p {
         order: 0;
@@ -17,6 +25,7 @@
         font-weight: 500;
         text-align: center;
         margin-top: 1rem;
+        text-shadow: 10px 10px 8px #e87d88;
     }   
 }
 .item-2 {

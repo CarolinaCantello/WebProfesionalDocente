@@ -69,8 +69,7 @@ a {
 
 /*---------------------------------------------------- header */
 #navIndex {
-  background-color: #B3E5FC;
-  height: 24vh; }
+  background-color: #B3E5FC; }
 
 #menu {
   border-color: #b3e5fc; }
@@ -82,7 +81,7 @@ nav ul li a {
   letter-spacing: 0.8px; }
   nav ul li a:hover {
     color: #e87d88;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
     text-decoration-line: none; }
 
 @media only screen and (min-width: 360px) {
@@ -150,6 +149,13 @@ footer {
   .fab {
     font-size: 28px; } }
 
+#card {
+  border-radius: 50px;
+  border: none;
+  box-shadow: 10px 10px 5px #99ffff;
+  border-left: 1.5px groove #99ffff;
+  border-top: 1.5px groove #99ffff; }
+
 .item-1 {
   display: flex;
   flex-wrap: wrap; }
@@ -160,14 +166,15 @@ footer {
     max-width: 450px;
     margin-bottom: 1rem;
     line-height: 3.5rem;
-    text-shadow: grey; }
+    text-shadow: 10px 10px 8px #e87d88; }
   .item-1 p {
     order: 0;
     font-family: "oswald", sans-serif;
     font-size: 40px;
     font-weight: 500;
     text-align: center;
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    text-shadow: 10px 10px 8px #e87d88; }
 
 .item-2 {
   margin-bottom: 1.5rem; }
@@ -247,7 +254,7 @@ footer {
   #conoceEnfoque p {
     font-size: 25px;
     font-weight: 520;
-    color: #82d4fa;
+    color: #073692;
     letter-spacing: 2px; }
 
 .ensenanza {
@@ -360,6 +367,15 @@ fieldset {
   border-radius: 5px;
   max-width: 600px; }
 
+#enviar {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 20px;
+  background-color: #ffcdd2;
+  margin-top: 2rem; }
+  #enviar:hover {
+    background-color: #99ffff;
+    border-color: #e87d88; }
+
 /*---------------------------Tablet -------------------------------*/
 @media only screen and (min-width: 768px) {
   /*--------------- Trabajos y propuestas ---------------*/
@@ -378,7 +394,7 @@ fieldset {
     grid-column-gap: 1.5rem;
     justify-items: center;
     margin-bottom: 1.5rem;
-    max-height: 500px; }
+    max-height: 300px; }
   .precios_item-1 {
     grid-area: 1 / 1 / 2 / 2; }
   .precios_item-2 {
@@ -390,6 +406,9 @@ fieldset {
 
 /*-----------------------------Desktop----------------------------*/
 @media only screen and (min-width: 992px) {
+  /*--------------------- Index -----------------------*/
+  #card {
+    height: 530px; }
   /*--------------------- Enfoque -----------------------*/
   .ensenanza {
     margin-bottom: 5rem; }
@@ -439,6 +458,9 @@ fieldset {
 
 /*-------------------------Large Desktop--------------------------*/
 @media only screen and (min-width: 1200px) {
+  /*--------------------- Index -----------------------*/
+  #card {
+    height: 590px; }
   /*--------------------- Enfoque -----------------------*/
   .tecnologia_texto {
     padding-top: 7rem; }

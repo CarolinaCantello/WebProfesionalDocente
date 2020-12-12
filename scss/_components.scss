@@ -2,8 +2,8 @@
 /*---------------------------------------------------- header */ 
 #navIndex {
     background-color: $celesteDark;   
-    height: 24vh;    
 }
+
 #menu {
     border-color: #b3e5fc;
 }
@@ -18,7 +18,7 @@ nav {
                 letter-spacing: 0.8px;
                 &:hover {
                 color: $rosa1;
-                transition-duration: 0.5s;
+                transition-duration: 0.4s;
                 text-decoration-line: none;
                 }
             }

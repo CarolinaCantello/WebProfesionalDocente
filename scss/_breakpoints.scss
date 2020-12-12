@@ -22,7 +22,7 @@
         grid-column-gap: 1.5rem;
         justify-items: center;
         margin-bottom: 1.5rem;
-        max-height: 500px;
+        max-height: 300px;
     }
     .precios_item-1 {
         grid-area: 1 / 1 / 2 / 2  ;
@@ -40,7 +40,13 @@
 }
 /*-----------------------------Desktop----------------------------*/
 @media only screen and (min-width: 992px) {
-/*--------------------- Enfoque -----------------------*/
+
+/*--------------------- Index -----------------------*/
+    #card {
+        height: 530px;
+    }
+
+    /*--------------------- Enfoque -----------------------*/
     .ensenanza {
         margin-bottom: 5rem;
         h2 {
@@ -114,6 +120,11 @@
 
 /*-------------------------Large Desktop--------------------------*/
 @media only screen and (min-width: 1200px) {
+
+/*--------------------- Index -----------------------*/
+    #card {
+        height: 590px;
+    }
 
 /*--------------------- Enfoque -----------------------*/
     .tecnologia_texto {
